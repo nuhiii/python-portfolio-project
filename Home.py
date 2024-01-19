@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png", width=500)
+    st.image("images/photo.png")
 
 with col2:
     st.title("Nuhirath Rafthia")
@@ -23,7 +23,7 @@ with col2:
     I had the privilege of conducting research projects with CERN, Amazon, and IBM to name a few.
     Beyond formal education, I actively pursued self-learning, through open source. All in all, my journey in the world 
     of technology has been marked by a diverse range of experiences that have honed my skills and knowledge. Below are 
-    a few of the projects I have worked on to showcase my technical proficiency, especially given the Python 
+    a few of the projects I have worked on to showcase my technical proficiency, especially with the Python 
     programming language. In any case, feel free to contact me!
     """
     st.info(content)
