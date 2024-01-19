@@ -8,22 +8,25 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png")
+    st.image("images/photo.png", width=500)
 
 with col2:
     st.title("Nuhirath Rafthia")
     content = """
-    As an Honors Student at Columbia University, I am passionate about Computer Science. 
-    More specifically, I have a keen focus on the Intelligent Systems Track. 
-    My journey in the world of technology has been marked by a diverse range of experiences 
-    that have honed my skills and knowledge.
+    I possess a deep passion for technology, holding a degree in Computer Science from Columbia University—
+    an esteemed Ivy League Institution consistently ranked among the top 5 universities globally.
+    Throughout my academic journey, I immersed myself in the realm of Artificial 
+    Intelligence, by pursuing the Intelligent Systems track and diving into various coursework and projects. 
+    I took part in internship roles, partnering with further renowned institutions, that allowed me to bridge the gap 
+    between a theoretical learning approach and active hands on research. I took the knowledge I gained from
+    university and applied them to real world scenarios, at companies seeking to make an impact on the world. As such,
+    I had the privilege of conducting research projects with CERN, Amazon, and IBM to name a few.
+    Beyond formal education, I actively pursued self-learning, through open source. All in all, my journey in the world 
+    of technology has been marked by a diverse range of experiences that have honed my skills and knowledge. Below are 
+    a few of the projects I have worked on to showcase my technical proficiency, especially given the Python 
+    programming language. In any case, feel free to contact me!
     """
     st.info(content)
-
-content2 = """
-Below you can find some of the apps I have built in Python. Feel free to contact me!
-"""
-st.write(content2)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
